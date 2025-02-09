@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Major+Mono+Display&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik&family=Salsa&family=Sora:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+$bg-color: #2F3D40;
+$color-text: white;
+$maquetacion-flex: flex;
+$row-flex: row nowrap;
+$relleno-contenedor: 20px 20px;
+$resolucion-ancho: 100%;
+.encabezado{
+    background-color: $bg-color;
+    color: $color-text;
+    font-family: "Inter";
+    display: $maquetacion-flex;
+    flex-flow: $row-flex;
+    justify-content: space-between;
+    padding: $relleno-contenedor;
+    width: $resolucion-ancho;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.menu__enlaces{
+    & ul{
+        list-style-type: none;
+    }
+
+    & li{
+        display: inline-block;
+    }
+}
