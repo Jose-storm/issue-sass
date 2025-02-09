@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Major+Mono+Display&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik&family=Salsa&family=Sora:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Major+Mono+Display&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik&family=Salsa&family=Sora:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* Variables globales */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contenido_uno {
+  padding: 10px;
+  text-align: center;
+  background-color: #223240;
+  font-family: "Poppins";
+  color: white;
+  min-height: 700px;
+  width: 100%;
+}
+.contenido_uno ::selection {
+  background-color: white;
+  color: #223240;
+}
+.contenido_uno .content_img {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  padding: 20px 0px;
+  gap: 10px;
+}
+.contenido_uno .img {
+  /* Contenedor con alto */
+  height: auto;
+  background-image: url(../img/sea-7409361_1280.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  transition: 1s;
+}
+.contenido_uno .img:hover {
+  transition: 1s;
+  transform: scale(0.8);
+}
+.contenido_uno .img--two {
+  background-image: url(../img/diamond-beach-7566872_1280.jpg);
+}
+.contenido_uno .img--tree {
+  background-image: url(../img/man-6656628_1280.jpg);
+}
+.contenido_uno .img--four {
+  background-image: url(../img/trees-8686902_1280.jpg);
+}
+
+.contenido_dos {
+  background-color: #223240;
+  color: white;
+  font-family: "Inter";
+  font-size: 30px;
+  padding: 10px;
+  min-height: 700px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
