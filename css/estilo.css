@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Major+Mono+Display&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik&family=Salsa&family=Sora:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Major+Mono+Display&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik&family=Salsa&family=Sora:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Major+Mono+Display&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik&family=Salsa&family=Sora:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Major+Mono+Display&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik&family=Salsa&family=Sora:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 .encabezado {
   background-color: #2F3D40;
   color: white;
@@ -20,6 +21,55 @@
 }
 .menu__enlaces li {
   display: inline-block;
+}
+
+.content_tree {
+  background-color: #F2E3D5;
+  font-family: "Inter";
+  width: 100%;
+  min-height: 600px;
+}
+.content_tree h4 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.title-1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.title-2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.title-3 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.title-4 {
+  font-size: 80px;
+  text-align: center;
+}
+
+.title-red {
+  color: red;
+  text-align: center;
+  font-family: "Inter";
+}
+
+.title-green {
+  color: green;
+  text-align: center;
+  font-family: "Inter";
+}
+
+.title-blue {
+  color: blue;
+  text-align: center;
+  font-family: "Inter";
 }
 
 /* Variables globales */
@@ -114,6 +164,13 @@
 .contenido_dos .descripcion__tema p {
   font-size: 15.7894736842px;
 }
+@media only screen and (max-width: 552px) {
+  .contenido_dos {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+  }
+}
 
 .descripcion__enlaces {
   /* Por el momento flex */
@@ -136,7 +193,7 @@
 .descripcion__enlaces a:hover {
   background-color: #9AEBA3;
   color: #223240;
-  transition: 1.5s;
+  transition: 0.5s;
 }
 
 .introduction__img--one {

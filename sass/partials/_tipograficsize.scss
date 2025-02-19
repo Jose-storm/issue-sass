@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Major+Mono+Display&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik&family=Salsa&family=Sora:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+$fondo-color-tree: #F2E3D5;
+$size-title: 40px;
+$tipografia-tip-uno: "Inter";
+$resolucion-tip-ancho: 100%;
+.content_tree{
+    background-color: $fondo-color-tree;
+    font-family: $tipografia-tip-uno;
+    width: $resolucion-tip-ancho;
+    min-height: calc($size-title*15);
+
+    & h4{
+        font-size: $size-title;
+        text-align: center;
+    }
+}
+@for $i from 1 to 5{
+    .title-#{$i}{ 
+        font-size: 20px * $i;
+        text-align: center;
+        // @if($i == 2 or $i == 4){
+        //     color: red;
+        // }
+    }
+}
+$colors-title: red, green, blue;
+@each $j in $colors-title{
+    .title-#{$j}{
+        color: $j;
+        text-align: center; 
+        font-family: $tipografia-tip-uno;
+    }
+}
